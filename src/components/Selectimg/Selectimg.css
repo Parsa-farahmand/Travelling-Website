@@ -1,0 +1,28 @@
+.selects img{
+    height: 100%;
+    width: 100%;
+    width: 300px;
+}
+.selects-location{
+    position: relative;
+
+}
+p{
+    color: white;
+}
+.selects-location .overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+}
+.selects-location p{
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    color-scheme: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
